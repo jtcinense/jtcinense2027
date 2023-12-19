@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Egeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .header{
+            width: 100%;
+            padding-left: 0%;
+        }
+        header a{
+            text-decoration-line: none;
+        }
+        a:hover {
+            color: #000;
+        }
+        body{
+            background-color:#131939;
+            margin-left: -10px;
+            font-family: 'Times New Roman', Times, serif;
+            overflow-x: hidden;
+        }
+        #headerimg{
+            color: white;
+            font-size: xx-large;
+        }
+        .nav-link{
+            margin-left: 100px;
+        }
+        #nav1{
+            color: white;
+            font-size: x-large;
+        }
+        #nav2{
+            color: white;
+            font-size: x-large;
+        }
+        #nav3{
+            color: white;
+            font-size: x-large;
+        }
+        #nav4{
+            color: white;
+            font-size: x-large;
+        }
+        #nav5{
+            color: white;
+            font-size: x-large;
+        }
+        #nav6{
+            color: white;
+            font-size: x-large;
+            margin-left: 100px;
+        }
+        #first{
+          background-image: url(EnglishHeader.svg);
+          width: 103%;
+          height: 500px;
+          margin-left: -10px;
+          background-size: 100%;
+          background-position: 65%;
+        }
+        #firstcon{
+          text-align: center;
+          font-size: 600%;
+          border-color: white;
+        }
+        #pic1{
+          margin-right: 200px;
+          color: white;
+        }
+        #pic2{
+          margin-left: 200px;
+          color: white;
+          text-align: center;
+        }
+        #intro{
+            font-size: 150%;
+            text-align: center;
+        }
+        #header1{
+            font-size: 250%;
+        }
+        #header2{
+            font-size: 200%;
+        }
+        #wholecon{
+            width: 103%;
+        }
+        #wholecon1{
+            width: 103%;
+        }
+        #jabpic{
+            border-radius: 50px;
+        }
+        #firstbio{
+            background-color: #687c9f;
+        }
+        #petratitle1{
+            text-align: center;
+            color: white;
+            font-size: 300%;
+        }
+        #petratitle2{
+            text-align: center;
+            color: white;
+            font-size: 300%;
+        }
+        #petrapoem1{
+            text-align: center;
+            color: white;
+            font-size: 250%;
+        }
+        #petrapoem2{
+            text-align: center;
+            color: white;
+            font-size: 250%;
+        }
+        #petrarchan{
+            text-align: center;
+            color: white;
+            font-size: 200%;
+        }
+        #shaketitle1{
+            text-align: center;
+            color: white;
+            font-size: 300%;
+        }
+        #shaketitle2{
+            text-align: center;
+            color: white;
+            font-size: 300%;
+        }
+        #shakepoem1{
+            text-align: center;
+            color: white;
+            font-size: 250%;
+        }
+        #shakepoem2{
+            text-align: center;
+            color: white;
+            font-size: 250%;
+        }
+        #shakespearean{
+            text-align: center;
+            color: white;
+            font-size: 200%;
+        }
+        #song1{
+            text-align: center;
+            color: white;
+            font-size: 200%;
+        }
+        #song2{
+            text-align: center;
+            color: white;
+            font-size: 200%;
+        }
+        #secondbio{
+            background-color: #687c9f;
+        }
+        #petrarchan, #shakespearean, #song1, #song2 {
+            font-family: 'Tenor Sans', sans-serif;
+        }
+        @media (max-width:768px) {
+            #first{
+          background-image: url(engheader.png);
+          width: 103%;
+          height: 500px;
+          margin-left: -10px;
+          background-size: 250%;
+          background-position: 65%;
+        }
+    }
+        @media (max-width:768px) {
+            #first{
+          background-image: url(engheader.png);
+          width: 102%;
+          height: 200px;
+          margin-left: -10px;
+          background-size: 250%;
+          background-position: 65%;
+        }
+        #firstcon{
+          text-align: center;
+          font-size: 300%;
+          border-color: white;
+        }
+        #petrarchan, #shakespearean, #song1, #song2 {
+            font-size: 20px;
+        }
+    }
+    </style>
+</head>
+<body class="container-fluid">
+    <header class="container-fluid shadow-lg">
+        <nav class="navbar navbar-expand-lg sticky-top bg-primary-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="headerimg">
+              <img src="Untitled183_20231114215004.png" alt="" width="100" height="100" class="d-inline-block align-text-center">
+              Knowledge Hub
+            </a>
+              <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item nav" id="nav1">
+                    <a class="nav-link text-white"  aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item " id="nav2">
+                    <a class="nav-link text-white" href="#">Calendar</a>
+                  </li>
+                  <li class="nav-item dropdown nav-underline">
+                    <a class="nav-link dropdown-toggle active text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav3">
+                      Enrolled Classes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Math</a></li>
+                        <li><a class="dropdown-item" href="bionew.html">Biology</a></li>
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Physics</a></li>
+                        <li><a class="dropdown-item" href="english.html">English</a></li>
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Social Science</a></li>
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Chemistry</a></li>
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Statistics</a></li>
+                        <li><a class="dropdown-item" href="MelusineMaint.html">Computer Science</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item" id="nav4">
+                    <a class="nav-link text-white" href="extracurriculars.html">Extra Curricular</a>
+                  </li>
+                  <li class="nav-item" id="nav5">
+                    <a class="nav-link text-white" href="Index.html">Log Out</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="d-sm-flex position-relative" id="first">
+            <h1 class="d-sm-flex position-absolute top-50 start-50 translate-middle text-white border border-5 rounded border-white-subtle p-4" id="firstcon">Tecson</h1>
+          </div>
+        <div class="d-flex flex-column">
+            <div class="row" id="wholecon">
+                <div class="col-lg-6 p-5" id="firstbio">
+                    <h1 id="petratitle1">The Soloist's Partner</h1>
+                    <h5 id="petrapoem1">Petrarchan Sonnet</h5>
+                    <p class="p-5" id="petrarchan">Roses dance fervently at night,<br>Swaying to the breeze of love.<br>Thorns holding up the petals above,<br>The breeze turning into a tornado of spite.<br><br>The thorns hold the petals tight,<br>In the end, one of the petals fall off,<br>It grasps that it can fly as freely as a dove.<br>The petal realized too late, it was sliced.<br><br>The nights of dancing and swaying,<br>Left too many marks on the petal.<br>Now it’s free, life within no longer fading,<br><br>Living in a whole new different level.<br>The nights are not worth remembering,<br>It doesn’t need a partner to be special.</p>
+                </div>
+                <div class="col-lg-6 p-5" id="firstbiosong">
+                    <h1 id="petratitle2">It’s Too Late</h1>
+                    <h5 id="petrapoem2">Lexnour</h5>
+                    <p class="p-5" id="song1">It's too late, I can't take what you did to me<br>
+                        Nah nah, now I'm running out of reasons to
+                        stay<br>
+                        I took one, maybe two, many shots <br>
+                        I'm at the bottom of the bottle reminiscing a
+                        lot <br>
+                        About the "I love you's" the "I'll be there's" <br>
+                        Too many lies to keep me here <br>
+                        And now I'm gone <br>
+                        And that's for sure <br>
+                        Now you're just a memory and I don't even
+                        need you anymore</p>
+                    </div>
+            </div>
+            <div class="row" id="wholecon1">
+                <div class="col-lg-6 p-5" id="secondbio">
+                    <h1 id="shaketitle1"></h1>
+                    <h5 id="shakepoem1">Shakespearean Sonnet</h5>
+                    <p class="p-5" id="shakespearean">Staring at those eyes so enchanting,<br>My heart pumps faster by the minute.<br>My love for you never ending,<br>I can’t find the words to express it.<br><br>Our souls intertwined with one another,<br>We found each other happily interlocked.<br>Amidst of this lovely night I felt a shudder,<br>Coming from the door, someone knocked.<br><br>A man stood there looking at you,<br>Explain not, my last line has been drawn.<br>I gave you a lot of chances to,<br>Make me less heartbroken, less forlorn.<br><br>Had I realized sooner you and me,<br>were never meant to be.</p>
+                </div>
+                <div class="col-lg-6 p-5" id="secondbiosong">
+                    <h1 id="shaketitle2">Cry Me a River</h1>
+                    <h5 id="shakepoem2">Justin Timberlake</h5>
+                    <p class="p-5" id="song2">You were my sun <br>
+                        You were my earth <br>
+                        But you didn't know all the ways I loved you,
+                        no <br>
+                        So you took a chance <br>
+                        And made other plans <br>
+                        But I bet you didn't think that they would come
+                        crashing down, no <br>
+                        You don't have to say, what you did <br>
+                        I already know, I found out from him <br>
+                        Now there's just no chance <br>
+                        For you and me <br>
+                        There'll never be <br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
